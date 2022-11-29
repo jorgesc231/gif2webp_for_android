@@ -6,6 +6,9 @@ https://developers.google.com/speed/webp/docs/gif2webp
 
 En este proyecto se compila junto con sus dependencias (libgif y libwebp) para ser usada por aplicaciones Android.
 
+Usa NDK y CMake para compilar y JNI como interfaz entre Java/Kotlin y C.
+
+
 ### App Demo
 
 Incluye una app demo que permite descargar un gif de internet y convertirlo a webp, también muestra el tiempo que demoro la conversión y la comparación de tamaño de los archivos.
@@ -53,9 +56,10 @@ No soy desarrollador Android a si que el código es bastante malo y no comprueba
 
 ## Instrucciones para usar en una app Android
 
-TODO
+Por terminar...
 
 Obtener el archivo libgif2webp.so e incluirlo en el proyecto usando CMake...
+Sacar el codigo que interacciona con la biblioteca desde MainActivity.kt.
 
 
 ## Por Hacer
